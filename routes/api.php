@@ -26,7 +26,10 @@ Route::get('/test', function(Request $request){
     $response->header('Content-type', 'application/json');
     return $response;
 });
-
+/*
 Route::get('/products', function(){
     return App\product::all();
 });
+*/
+Route::get('/products', 'Api\\ProductController@index');
+
