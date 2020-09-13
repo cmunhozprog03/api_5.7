@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="600ed5ec-7044-4242-b23d-0d0df07cc1e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/ProductCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,7 @@
       <workItem from="1599828275149" duration="2669000" />
       <workItem from="1599871426120" duration="269000" />
       <workItem from="1599872807718" duration="410000" />
-      <workItem from="1600027857231" duration="7162000" />
+      <workItem from="1600027857231" duration="9079000" />
     </task>
     <task id="LOCAL-00001" summary="Erro aula 12">
       <created>1599829266385</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600033989870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aula - 019">
+      <created>1600035515288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600035515288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,12 +247,13 @@
     <MESSAGE value="Aula - 016" />
     <MESSAGE value="Aula - 017" />
     <MESSAGE value="Aula - 017b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula - 017b" />
+    <MESSAGE value="Aula - 019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula - 019" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600033991973">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600035517213">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600033991973" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600035517213" />
   </component>
 </project>
