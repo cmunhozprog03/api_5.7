@@ -31,5 +31,18 @@ Route::get('/products', function(){
     return App\product::all();
 });
 */
-Route::get('/products', 'Api\\ProductController@index');
+Route::namespace('Api')->group(function(){
+    route->prefix('products')->group(function(){
+        Route::get('/', 'ProductController@index');
+        Route::get('/{id}', 'ProductController@show');
+        Route::post('/', 'ProductController@save');
+        Route::put('/', 'ProductController@update');
+        Route::patch('/', 'ProductController@update');
+        Route::delete('/{id}', 'ProductController@delete');
+    });
+});
+
+
+
+
 
