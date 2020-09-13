@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="600ed5ec-7044-4242-b23d-0d0df07cc1e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/ProductCollection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ProductResource.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,11 +146,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hL1Uq1iAoJxfEGRtnnm09CtI1G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -180,7 +186,7 @@
       <workItem from="1599828275149" duration="2669000" />
       <workItem from="1599871426120" duration="269000" />
       <workItem from="1599872807718" duration="410000" />
-      <workItem from="1600027857231" duration="5810000" />
+      <workItem from="1600027857231" duration="7162000" />
     </task>
     <task id="LOCAL-00001" summary="Erro aula 12">
       <created>1599829266385</created>
@@ -196,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600031917637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aula - 017">
+      <created>1600033963922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033963922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aula - 017b">
+      <created>1600033989870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033989870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,14 +235,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Erro aula 12" />
     <MESSAGE value="Aula - 016" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula - 016" />
+    <MESSAGE value="Aula - 017" />
+    <MESSAGE value="Aula - 017b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula - 017b" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1599829268990">
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1600033991973">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599829268990" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600033991973" />
   </component>
 </project>
